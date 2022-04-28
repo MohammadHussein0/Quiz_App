@@ -33,14 +33,17 @@ next_Question = () => {
   const {userAnswer, answer , score } = this.state
   this.setState({
       currentIndex: this.state.currentIndex + 1
-      
 
+      // if(next_Question == ){
+      // alert('Click the Answer')
+      // }
+      
     })
 
       //Check for correct answer and increment score
   if(userAnswer ===answer ){
     this.setState({
-        score: score + 1
+        score: score + 1 
     })
 }
 }
@@ -113,7 +116,7 @@ checkAnswer = answer => {
   <div className="box">
 
       <h2>{question}</h2>
-
+    
       
         <span>{`Question ${currentIndex +1 } of ${QuizData.length}`}</span>
         <span className='quizInfo' > اسم المادة :{QuizData[currentIndex].category}
