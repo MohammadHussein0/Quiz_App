@@ -614,6 +614,106 @@ export const QuizData = [
         answer: `All of the above.`
     },
     
+    {
+        id: 60,
+        category: "تطوير نظم المعلومات المحاسبية وفحصها",
+        difficulty: "easy", 
+        question: `Which of the following parties are important to the development and implementation of AIS?`,
+        options: [`Management`, `Accountants`, `Information Systems Steering Committee` , `Project development team` , `All of the above`],
+        answer: `All of the above`
+    },
+    
+    {
+        id: 61,
+        category: "تطوير نظم المعلومات المحاسبية وفحصها",
+        difficulty: "easy", 
+        question: `Companies change their systems for various reasons. According to the text, which of the following is a reason?`,
+        options: [`Technological changes.`, `Productivity changes.`, `Systems integration and replacement.` , `All of the above are key reasons.`],
+        answer: `All of the above are key reasons.`
+    },
+    
+    {
+        id: 62,
+        category: "تطوير نظم المعلومات المحاسبية وفحصها",
+        difficulty: "easy", 
+        question: `Which of the following is not a reason for resistance to change?`,
+        options: [`If change is perceived as disruptive`, `Employees who had a previous bad experience with change`, `Lack of management support` , `Confidence and job security`],
+        answer: `Confidence and job security`
+    },
+    
+    {
+        id: 63,
+        category: "تطوير نظم المعلومات المحاسبية وفحصها",
+        difficulty: "easy", 
+        question: `Which of the following methods of evaluating capital investments utilizes present value techniques?`,
+        options: [`The net present value method.`, `The payback method.`, `Internal rate of return.` , `Answers #1 and #3 only are correct.`],
+        answer: `Answers #1 and #3 only are correct.`
+    },
+    
+    {
+        id: 64,
+        category: "تطوير نظم المعلومات المحاسبية وفحصها",
+        difficulty: "medium", 
+        question: `Which of the following are strategies to determine AIS requirements?`,
+        options: [`Ask users what they need.`, `Analyze existing systems.`, `Create a prototype.` , `Answers #1 and #2 only are correct.` , `Answers #1, #2, and #3 are correct.`],
+        answer: `Answers #1, #2, and #3 are correct.`
+    },
+    
+    {
+        id: 65,
+        category: "تطوير نظم المعلومات المحاسبية وفحصها",
+        difficulty: "medium", 
+        question: `A proposed project that does not consider the impact of the project on existing contractual obligations failed to consider which of following elements of systems feasibility?`,
+        options: [`Economic.`, `Technical.` , `Legal` , `Scheduling`],
+        answer: `Legal`
+    },
+    
+    
+    {
+        id: 66,
+        category: "تطوير نظم المعلومات المحاسبية وفحصها",
+        difficulty: "medium", 
+        question: `Which of the following is NOT an AIS objective?`,
+        options: [`Auditability.`, `Reliability.` , `Flexibility` , `Complexity`],
+        answer: `Complexity`
+    },
+    
+    {
+        id: 66,
+        category: "تطوير نظم المعلومات المحاسبية وفحصها",
+        difficulty: "medium", 
+        question: `Which of the following is a characteristic of a Gantt chart?`,
+        options: [`It is a bar graph`, `Project activities are listed.` , `Shows progress to date for a particular activity.` , `All of the above.`],
+        answer: `All of the above.`
+    },
+    
+    {
+        id: 67,
+        category: "تطوير نظم المعلومات المحاسبية وفحصها",
+        difficulty: "hard", 
+        question: `Which of the following answers the question as to whether the planned system can be developed and implemented using existing technology?`,
+        options: [`Economic feasibility`, `Legal feasibility` , `Operational feasibility` , `Technical feasibility`],
+        answer: `Technical feasibility`
+    },
+    
+    {
+        id: 68,
+        category: "تطوير نظم المعلومات المحاسبية وفحصها",
+        difficulty: "hard", 
+        question: `Which of the following is NOT considered a conversion cost?`,
+        options: [`Parallel operations`, `Systems testing` , `File and data conversions` , `System documentation`],
+        answer: `System documentation`
+    },
+    
+    {
+        id: 69,
+        category: "تطوير نظم المعلومات المحاسبية وفحصها",
+        difficulty: "hard", 
+        question: `How often should an AIS be monitored and minor modifications be made?`,
+        options: [`Annually`, `Continuously` , `When technology changes` , `When the competition changes systems`],
+        answer: `Continuously`
+    },
+    
 
 
 ]
