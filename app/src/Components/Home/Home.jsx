@@ -106,7 +106,7 @@ const Goto_quiz = () => {
           size="small"
         />
 
-<TextField
+{/* <TextField
             select
             label="Timer"
             // value={difficulty}
@@ -121,7 +121,7 @@ const Goto_quiz = () => {
             <MenuItem key="Hard" value="hard">
               Timer
             </MenuItem>
-          </TextField>
+          </TextField> */}
 
       {/* </FormControl> */}
 
@@ -138,11 +138,13 @@ const Goto_quiz = () => {
 
         </div>
 
-        {/* <div className="icons float-end">
-        <i class="fas fa-plus-circle"></i>
-      </div> */}
 
-      <button onClick={GoTo_Add} type="submit" className="btnn">+</button>
+
+      {/* <button onClick={GoTo_Add} type="submit" className="btnn">+</button> */}
+
+      <button type='submit' onClick={GoTo_Add}   className="btn btn-primary float-end"> Add Question <i class="fas fa-plus-circle"></i>  </button>
+
+
       </div>
     </div>
   );

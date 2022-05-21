@@ -30,18 +30,6 @@ export default function App() {
     
   }
   
-  
-  // function Select_Data_From_Add_Comp ( question ,category,difficulty , option1 , option2 , option3 , option4 , currectAnswer){
-  //   setCategory(category) ; 
-  //   setDifficulty(difficulty) ;
-  //   setQuestion(question) ;
-  //   setOption1(option1) ;
-  //   setOption2(option2) ;
-  //   setOption3(option3) ;
-  //   setOption4(option4) ;
-  //   setCurrectAnswer(currectAnswer) ;
-  // }
-
 
   return (
     <>
@@ -52,6 +40,8 @@ export default function App() {
 {/* <Quiz startCount = '10' /> */}
 
 <Header />
+
+
 
 <Routes>
 
@@ -66,7 +56,6 @@ export default function App() {
  </div>
 
 <Footer />
-
 
 
 

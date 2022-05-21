@@ -144,6 +144,16 @@ export const QuizData = [
         answer: `$790,000`
     },
 
+
+    {
+        id: 12,
+        category: "المحاسبة الادارية",
+        difficulty: "hard",
+        question: `Marshall Company had actual sales of $600,0000 when break-even sales were $420,000. what is the margin of safety ratio ?`,
+        options: [`25%`, `30%`, `33%` , `45%`],
+        answer: `30%`
+    },
+
     {
         id: 11,
         category: "المحاسبة الادارية",
