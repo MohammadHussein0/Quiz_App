@@ -11,6 +11,7 @@ const Categories = [
   {value: 9 , category:"تدقيق انظمة المعلومات المحاسبية"},
   {value: 10 , category:"تحليل وتصميم النظم المحاسبية"},
   {value: 11 , category:"تطوير نظم المعلومات المحاسبية وفحصها"},
+  {value: 12 , category:"محاسبة الشركات"},
 
 
 

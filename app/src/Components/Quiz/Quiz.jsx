@@ -194,7 +194,8 @@ componentWillUnmount () {
       <div className="box">
   
 
-        <span>{`Question No : ${currentIndex +1 } of ${this.filterdQuestions.length} `}</span>
+        {/* <span>{`Question No : ${currentIndex +1 } of ${this.filterdQuestions.length} `}</span> */}
+        <span>{`Question No : ${currentIndex +1 } `}</span>
         {/* <span className='quizInfo' > اسم المادة :{QuizData[currentIndex].category} */}
         <span className='quizInfo' > اسم المادة : {category}
         
