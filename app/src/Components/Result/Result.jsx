@@ -14,7 +14,6 @@ const Result = ({ name, score }) => {
 
   return (
     <div className="result">
-      {/* <span className="title">Final Score : {score}</span> */}
       <span className="title">النتيجة النهائية: {score}</span>
       <Button
         variant="contained"
@@ -23,11 +22,9 @@ const Result = ({ name, score }) => {
         style={{ alignSelf: "center", marginTop: 20 }}
         href="/"
       >
-        {/* Go to homepage */}
         ارجع الى الصفحة الرئيسية
       </Button>
     </div>
-
 
 
 

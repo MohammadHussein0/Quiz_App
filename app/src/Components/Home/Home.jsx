@@ -20,16 +20,12 @@ const GoTo_Add =()=>{
      Navigate(path);
 }
 
-
 const Goto_quiz = () => {
 
   if(!name || !category || !difficulty){
 
     setError(true);
       return;
-
-// alert('plz input your info')
-
 
   }else{
     setError(false);
@@ -42,11 +38,11 @@ const Goto_quiz = () => {
 
   };
 
-
   return (
     <div className="content">
       <div className="settings">
-        <span style={{ fontSize: 30 }}>  Business College Quiz </span>
+        {/* <span style={{ fontSize: 30 }}>  Business College Quiz </span> */}
+        <span style={{ fontSize: 30,color:'black' }}>  فقم بعلم وﻻ تطلب به بدلاً ... فالناس موتى واهل العلم احياءُ </span>
         <div className="settings__select">
 
         {error && <ErrorMessage> الرجاء إدخال المعلومات الخاصة بك </ErrorMessage>}
@@ -106,7 +102,7 @@ const Goto_quiz = () => {
           size="small"
         />
 
-{/* <TextField
+<TextField
             select
             label="Timer"
             // value={difficulty}
@@ -121,7 +117,7 @@ const Goto_quiz = () => {
             <MenuItem key="Hard" value="hard">
               Timer
             </MenuItem>
-          </TextField> */}
+          </TextField>
 
       {/* </FormControl> */}
 
@@ -142,7 +138,7 @@ const Goto_quiz = () => {
 
       {/* <button onClick={GoTo_Add} type="submit" className="btnn">+</button> */}
 
-      <button type='submit' onClick={GoTo_Add}   className="btn btn-primary float-end"> Add Question <i class="fas fa-plus-circle"></i>  </button>
+      <button type='submit' onClick={GoTo_Add}   className="btn btn-primary float-end"> أضف سؤال  <i class="fas fa-plus-circle"></i>  </button>
 
 
       </div>

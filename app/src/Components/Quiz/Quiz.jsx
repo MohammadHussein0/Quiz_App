@@ -25,7 +25,6 @@ export default class Quiz extends Component {
     count: 1  
     
   }
-
   
 //Load the quiz once the component mounts
 componentDidMount(){
@@ -48,8 +47,6 @@ componentDidMount(){
    this.doIntervalChange()
 
 }
-
-
 
 doIntervalChange = () => {
   this.myInterval = setInterval(() => {
@@ -76,7 +73,7 @@ componentWillUnmount () {
       AllQuestions:AllQuestions,
       isLoding:true
     });
-    console.log(' done');
+    console.log('done');
     }
 
 
@@ -102,8 +99,6 @@ componentWillUnmount () {
 
       this.setState({
           currentIndex: currentIndex + 1    
-
-
       });
 
       if(currentIndex === ''){
@@ -134,10 +129,8 @@ componentWillUnmount () {
       })
     }
     
-
-
+    
     }
-
 
 
     // changing the Score
@@ -157,7 +150,7 @@ componentWillUnmount () {
             this.setState({
               quizEnd:true
             })
-          }      
+          }
       }
 
 
@@ -177,7 +170,7 @@ componentWillUnmount () {
       <>
 
       <div className="quiz">
-      <span className="subtitle">اهلا زميل {name} </span> 
+      <span className="subtitle">{name} </span> 
 
       <div className="container">
 
@@ -208,7 +201,7 @@ componentWillUnmount () {
 
         {
             options.map(option=>
-                <p key={Math.random()}  className={` options ${userAnswer === option?"selected" : 0}`} 
+                <p key={Math.random()}  className={` options ${userAnswer === option?"selected" : null}`} // (( ? ==> yes && : ==> No ))
 
                 onClick ={()=>this.checkAnswer(option ,answer) }
                 >
@@ -218,12 +211,10 @@ componentWillUnmount () {
                 )
        }
 
-
-
        {
          currentIndex < FilterdQuestions.length -1 &&
         
-         <button style={{
+         <button  style={{
           borderRadius: 10,
          }} disabled={this.state.disabled} onClick={this.next_Question}>
             السؤال التالي  <i class="fas fa-angle-double-right"></i>
@@ -245,9 +236,14 @@ componentWillUnmount () {
         </div>
 
         </div>
-     
+
    </div>
       </>
     )
   }
 }
+
+
+
+
+

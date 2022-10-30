@@ -8,7 +8,6 @@ import Quiz from './Components/Quiz/Quiz';
 import Add from './Components/Add/Add';
 // import Typed from "react-typed";
 
-
 import { useState } from "react";
 import Result from './Components/Result/Result';
 import Start from './Components/Start/Start';
@@ -29,12 +28,12 @@ export default function App() {
     setName(username) ;
     
   }
-  
 
   return (
     <>
   
-<div className="app" style={{ backgroundImage: 'url("/ques1.png")'  }}>
+{/* <div className="app" style={{ backgroundImage: 'url("/ques1.png")'  }}> */}
+<div className="app" style={{   }}>
 
 
 {/* <Quiz startCount = '10' /> */}
@@ -46,7 +45,7 @@ export default function App() {
 <Routes>
 
 <Route path='/' element ={<Home Select_Data_From_Home_Comp={Select_Data_From_Home_Comp}/>} />
-<Route path="quiz" element={<Quiz  name={name} category={category} difficulty={difficulty} startCount = '60' />}  />
+<Route path="quiz" element={<Quiz  name={name} category={category} difficulty={difficulty} startCount = '100' />}  />
 <Route path='Add' element={<Add />} /> 
 <Route path = "Result" element={< Result />} />
 <Route path = "Start" element={<Start />} />

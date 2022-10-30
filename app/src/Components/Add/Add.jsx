@@ -37,6 +37,8 @@ setErrorLise(ValidateReuslt.error.details)
 }else{
   let {data} = await axios.post('',user)
   alert('done')
+
+  
   // console.log(ValidateReuslt);
 }
 
@@ -131,10 +133,6 @@ setUser(Myuser)
 </div>
 
 
-
-
-
-
    <div className="mb-3">
     <label htmlFor="question" className="form-label">السؤل</label>
     <input onChange={getFormDate} type="text" className="form-control" id="question" aria-describedby="emailHelp" name="question"/>
@@ -155,10 +153,15 @@ setUser(Myuser)
     <input onChange={getFormDate} type="text" className="form-control" id="answer3" aria-describedby="emailHelp" name="answer3" />
   </div>
 
-  {/* <div className="mb-3">
+  <div className="mb-3">
     <label htmlFor="answer4" className="form-label">الخيار رقم (4)</label>
-    <input onChange={getFormDate} type="text" className="form-control" id="answer4" aria-describedby="emailHelp" name="answer4" />
-  </div> */}
+    <input onChange={getFormDate}  placeholder="اكتب الاجابة الصحيحة"  type="text" className="form-control" id="answer4" aria-describedby="emailHelp" name="answer4" />
+  </div>
+
+  <div className="mb-3 text-center">
+    <label htmlFor="name" className="form-label"> </label>
+    <input onChange={getFormDate}   placeholder="اكتب اسمك الحقيقي"  type="text" className="name-stu" id="name" aria-describedby="emailHelp" name="name" />
+  </div>
 
   <button type='submit'className="btn btn-primary float-end ">ارسال</button>
   

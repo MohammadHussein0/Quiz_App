@@ -21,7 +21,8 @@ const Footer = () => {
       <br/>
     
     {/* &#169;  by Student Mohammad Raed Hussein  &#169;  */}
-    &#169;  Developed By Student Mohammad Raed Hussein  &#169; 
+    {/* &#169;  Developed By Student Mohammad Raed Hussein  &#169;  */}
+    &#169;  Copyrights Student Mohammad Raed Hussein  &#169; 
 
     </a>
   </div>

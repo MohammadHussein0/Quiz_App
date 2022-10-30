@@ -68,3 +68,12 @@ margin-top: 5rem;
 form .Timer input{
 text-align: center;
 }
+
+
+
+.name-stu{
+  margin-bottom: 51px;
+  width: 20rem;
+  text-align: center;
+  /* background-color: red; */
+}

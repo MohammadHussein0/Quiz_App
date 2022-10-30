@@ -81,11 +81,13 @@ body{
 
 
 
-button{
+button {
   background-color: green;
   margin-top: 3rem ;
   padding: 10px ;
   border-radius:  5px ;
+  position: relative;
+  transition: all .3s;
 }
 
 
